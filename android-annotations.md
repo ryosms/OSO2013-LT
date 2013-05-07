@@ -1,9 +1,13 @@
-# タイトル
+# AndroidAnnotationsの紹介
 
 author
-   ryosms
+:   @ryosms
+
 date
-   2013/05/11
+:   2013/05/11
+
+theme
+:    rabbit
 
 # 最初のスライド
 
@@ -13,4 +17,3 @@ date
 
 # 二番目のスライド
 
-![](https://raw.github.com/rabbit-shocker/rabbit/master/sample/lavie.png){:relative_height='100'}
