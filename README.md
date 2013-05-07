@@ -1,6 +1,7 @@
-# TODO: スライドのタイトル
+# OSO2013 懇親会のLT資料
 
-TODO: スライドの説明
+androidannotationsの紹介とかとか  
+プレゼンテーションツール [Rabbit](http://rabbit-shocker.org/ja/) を使用して作成
 
 ## 作者向け
 
