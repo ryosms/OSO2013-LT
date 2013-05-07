@@ -12,6 +12,13 @@ date
 theme
 :    rabbit
 
+# 自己紹介
+
+* [@ryosms](https://twitter.com/ryosms)
+* 日本Androidの会 岡山支部
+* 岡山Gitユーザ会([#okagit](https://twitter.com/search/realtime?q=%23okagit&src=typd))代表
+	[http://okagit.github.io/](http://okagit.github.io/)
+* OSO2013実行委員
 
 # 　
 
