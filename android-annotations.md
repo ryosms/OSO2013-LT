@@ -1,4 +1,7 @@
-# AndroidAnnotationsの紹介
+# OSO2013
+
+subtitle
+:   AndroidAnnotationsの紹介
 
 author
 :   @ryosms
