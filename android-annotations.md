@@ -12,11 +12,10 @@ date
 theme
 :    rabbit
 
-# 最初のスライド
 
-* 項目1
-* 項目2
-* 項目3
+# 　
 
-# 二番目のスライド
+* ご静聴ありがとうございました
+
+![](./images/bell6.png){:width='300' height='300' reflect_ratio='0.5'}
 
