@@ -1,4 +1,4 @@
-﻿# OSO2013
+# OSO2013
 
 subtitle
 :   AndroidAnnotationsの紹介
@@ -26,8 +26,68 @@ theme
 
 ![](./images/best_tweet.png){:width='500' height='300' reflect_ratio='0.5'}
 
+# OSO2012
 
-# 　
+* JavaFX on Android
+
+:TODO 書く
+
+# Android Annotations
+
+* [http://androidannotations.org/](http://androidannotations.org/)
+* Code Diet
+
+# 使い方
+
+* 公式読め
+[https://github.com/excilys/androidannotations/wiki/Configuration](https://github.com/excilys/androidannotations/wiki/Configuration)
+* ざっくり言えばannotation processorを有効に
+* 指定されたAnnotation付けたらおｋ
+
+# Annotation一覧（一部）
+
+* @EActivity / @EFragment (components)
+* @AfterViews / @ViewById (Injection)
+* @Click / @TextChange (Event binding)
+* 他にもまだまだあるよ！
+
+詳しくは [https://github.com/excilys/androidannotations/wiki/AvailableAnnotations](https://github.com/excilys/androidannotations/wiki/AvailableAnnotations) 見れ
+
+# 非同期処理
+
+Androidでの非同期処理の歴史
+
+# ～Android2.3
+
+* UIスレッドで重い処理行うとANRが出るよ！
+* 重い処理にはAsyncTask使おうね！
+* UIと密なのがいやだったら自分でThreadとか駆使してね！
+
+# Android4.0～
+
+* 時代はAsyncTaskLoader
+* LoaderではUI操作しないけど、CallbackするからUI操作が必要ならそこでやってね
+* 1画面で複数のAsyncTaskLoader使いたいならinterfaceとか駆使してね！
+　→例： [http://blog.livedoor.jp/ryosms/archives/5712827.html](http://blog.livedoor.jp/ryosms/archives/5712827.html)
+
+Android 3.x？なにそれおいしいの？
+
+# Android Annotationsの場合
+
+* 非同期で実行するメソッドに@Background付ければおｋ
+* UIの操作がやりたいなら@UiThread付ければおｋ
+* あら簡単！
+
+# まとめ
+
+* 便利だよ
+* 簡単だよ
+* 今までの苦労はなんだったのか
+
+※仕事でAndroid Annotations使ったら、Android初心者が「Webに載ってるサンプルコードとあまりにも違いすぎてわからん！」って発狂してたよ
+
+
+# おしまい
 
 * ご静聴ありがとうございました
 
